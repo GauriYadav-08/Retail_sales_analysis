@@ -1,3 +1,7 @@
+-- create database
+
+CREATE DATABASE Retail_sales_analysis_project;
+
 CREATE TABLE retail_sales
             (
                 transaction_id INT PRIMARY KEY,	
@@ -195,3 +199,4 @@ SELECT
 FROM hourly_sale
 GROUP BY shift
 
+-- End of project
